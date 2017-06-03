@@ -21,8 +21,8 @@
     </header>
 
     <nav class="main" id="mainNav" role="navigation">
-        <a href="/">Inicio</a>
-        <a href="/author">Créditos</a>
+        <a href="quiz-2017-js.herokuapp.com/index">Inicio</a>
+        <a href="quiz-2017-js.herokuapp.com/author">Créditos</a>
     </nav>
 
     <section class="main" id="mainSection">
