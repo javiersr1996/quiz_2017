@@ -41,6 +41,7 @@ router.get(/(?!\/new$|\/edit$|\/play$|\/check$|\/session$|\/(\d+)$)\/[^\/]*$/, f
 //-----------------------------------------------------------
 
 /* GET home page. */
+<<<<<<< HEAD
 router.get('/', function (req, res, next) {
     res.render('index');
 });
@@ -49,6 +50,17 @@ router.get('/', function (req, res, next) {
 router.get('/author', function (req, res, next) {
     res.render('author');
 });
+=======
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Quiz' });
+});
+
+router.get('/author', function(req, res, next){
+res.render('author');});
+
+router.get('/help', function(req, res, next){
+res.render('help');});
+>>>>>>> practica51
 
 
 // Autoload de rutas que usen :quizId

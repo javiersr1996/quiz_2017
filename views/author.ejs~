@@ -1,18 +1,13 @@
 <h1>Créditos</h1>
 
-	<a href='https://quiz-2017-js.herokuapp.com'>Inicio</a>
+	<a href='https://quiz-2017-js.herokuapp.com/index'>Inicio</a>
     	<a href='https://quiz-2017-js.herokuapp.com/help'>Ayuda</a>
 <p>
     Esta práctica ha sido desarrollada por Javier Sanchez Rueda y 
     David Paz Castro
 </p>
 
-<<<<<<< HEAD
-<img src="/images/foto.jpg" />
-0036
-=======
 <a href='https://github.com/javiersr1996/quiz_2017'>Repositorio GitHub</a>
 
 <img src="/images/foto.jpg" />
 
->>>>>>> practica51
