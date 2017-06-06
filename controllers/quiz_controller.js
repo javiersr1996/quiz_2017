@@ -47,7 +47,7 @@ exports.index = function (req, res, next) {
     if (search) {
         var search_like = "%" + search.replace(/ +/g,"%") + "%";
 
-        countOptions.where= { question :{ $like: search_like }};
+        countOptions.where= { question:{ $like: search_like }};
     }
 
 
