@@ -33,7 +33,7 @@ app.use(session({secret: "Quiz 2017",
     saveUninitialized: true}));
 app.use(methodOverride('_method', {methods: ["POST", "GET"]}));
 app.use(express.static(path.join(__dirname, 'public')));
-<<<<<<< HEAD
+
 app.use(partials());
 app.use(flash());
 
