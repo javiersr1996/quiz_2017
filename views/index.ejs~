@@ -8,10 +8,7 @@
     <h1><%= title %></h1>
     <h2>WELCOME</h2>
 
-    <a href='https://quiz-2017-js.herokuapp.com/index'>Inicio</a>
-    <a href='https://quiz-2017-js.herokuapp.com/author'>Créditos</a>
-    <a href='https://quiz-2017-js.herokuapp.com/help'>Ayuda</a>
-
+   
 
   </body>
 </html>
