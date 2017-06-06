@@ -23,7 +23,7 @@ router.get('/', function (req, res, next) {
 router.get('/author', function (req, res, next) {
     res.render('author');
 });
-=======
+
 router.get('/', function(req, res, next) {
   res.render('index', { title: 'Quiz' });
 });
@@ -33,13 +33,13 @@ res.render('author');});
 
 router.get('/help', function(req, res, next){
 res.render('help');});
->>>>>>> practica51
+
 
 
 // Autoload de rutas que usen :quizId
 router.param('quizId', quizController.load);
-router.get('/quizzes/random_play', quizController.random_play);
-router.get('/quizzes/random_check/:quizId(\\d+)', quizController.random_check);
+router.get('/quizzes/randomplay', quizController.random_play);
+router.get('/quizzes/randomcheck/:quizId(\\d+)', quizController.random_check);
 
 
 
@@ -66,18 +66,5 @@ router.get('/quizzes/:quizId(\\d+)/check',
     quizController.check);
 
 
-router.get('/quizzes/:quizId(\\d+)/tips/new',
-    sessionController.loginRequired,
-    tipController.new);
-router.post('/quizzes/:quizId(\\d+)/tips',
-    sessionController.loginRequired,
-    tipController.create);
-router.put('/quizzes/:quizId(\\d+)/tips/:tipId(\\d+)/accept',
-    sessionController.loginRequired,
-    quizController.adminOrAuthorRequired,
-    tipController.accept);
-router.delete('/quizzes/:quizId(\\d+)/tips/:tipId(\\d+)',
-    sessionController.loginRequired,
-    tipController.destroy);
 
 module.exports = router;
