@@ -1,4 +1,5 @@
 var path = require('path');
+var Quiz= require("./quiz");
 
 // Cargar ORM
 var Sequelize = require('sequelize');
