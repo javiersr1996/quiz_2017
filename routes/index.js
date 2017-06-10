@@ -38,8 +38,8 @@ res.render('help');});
 
 // Autoload de rutas que usen :quizId
 router.param('quizId', quizController.load);
-router.get('/quizzes/randomplay', quizController.random_play);
-router.get('/quizzes/randomcheck/:quizId(\\d+)', quizController.random_check);
+router.get('/quizzes/randomplay', quizController.randomplay);
+router.get('/quizzes/randomcheck/:quizId(\\d+)', quizController.randomcheck);
 
 
 

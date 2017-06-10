@@ -33,7 +33,7 @@ res.render('author');});
 
 router.get('/help', function(req, res, next){
 res.render('help');});
->>>>>>> practica51
+
 
 
 // Autoload de rutas que usen :quizId
