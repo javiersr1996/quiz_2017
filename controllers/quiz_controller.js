@@ -10,7 +10,7 @@ var paginate = require('../helpers/paginate').paginate;
 exports.load = function (req, res, next, quizId) {
 
 
-    models.Quiz.findById(quizId, options)
+    models.Quiz.findById(quizId)
     .then(function (quiz) {
         if (quiz) {
             req.quiz = quiz;
@@ -91,15 +91,11 @@ exports.index = function (req, res, next) {
 // GET /quizzes/:quizId
 exports.show = function (req, res, next) {
 
-	var quiz = {question: "", answer: ""};
+	
 
-	if (quiz) {
+	res.render('quizzes/show', {quiz: req.quiz});
 
-		res.render('quizzes/show', {quiz:quiz});
-
-	} else {
-		next(new Error('No existe ningun quiz con id=' + quizId));
-	}
+	
    
 };
 
