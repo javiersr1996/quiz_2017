@@ -31,7 +31,7 @@ exports.load = function (req, res, next, quizId) {
 	} else {
 		throw new Error('No existe ningun quiz con id='+ quizId);
 	}
-    }}
+    })
   .catch(function(error) {
 	next(error);
 
