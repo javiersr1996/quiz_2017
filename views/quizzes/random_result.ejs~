@@ -14,12 +14,8 @@
     <% if (!result) { %>
     Has fallado.
     <a href="/quizzes"> FIN </a>
-    <a href="/"><button>Volver a inicio</button></a>
-    <img src="/images/perdedor.jpg"  />
     <% } else { %>
     Has acertado.
     <a href="/quizzes/randomplay"><button>Continuar jugando</button></a>
-    <img src="/images/acierto.jpg"  />
-
     <% } %>
 </p>
