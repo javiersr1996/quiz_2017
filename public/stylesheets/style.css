@@ -48,12 +48,13 @@ body {
 }
 
 #mainNav a:hover {
-    background-color: #ADFD2F;
+    background-color: #008000;
 }
 
 #mainSection {
     padding: 20px;
     text-align: left;
+    background-color: #00FA9A;
 }
 
 #mainFooter {
@@ -69,7 +70,7 @@ body {
 }
 
 a {
-    color: #FFD700;
+    color: #DAA520;
 }
 
 .right {
