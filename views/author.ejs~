@@ -6,10 +6,13 @@
 </p>
 
 
-<img src="/images/foto.jpg" />
+<img src="/images/foto.jpg"  />
+<a href="https://btorrelodones.com"><button>CB Torrelodones</button></a>
+<a href="https://twitter.com/javier_sr7"><button>Mi twitter</button></a>
 
 
-<a href='https://github.com/javiersr1996/quiz_2017'>Repositorio GitHub</a>
+<a href="https://github.com/javiersr1996/quiz_2017"><button>Repositorio Github</button></a>
+
 
 
 
