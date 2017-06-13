@@ -1,5 +1,6 @@
 body {
     background: #999;
+    background-color:blue;
 }
 
 #page:after {
@@ -13,17 +14,12 @@ body {
 
 #mainNav a {
     display: block;
-    text-align: center;
+    text-align: left;
 }
 
 #mainSection {
     flex: 1;
     overflow: auto;
-}
-img {
-    width: 25%;
-    height: auto;
-    display: block;
 }
 
 
