@@ -14,7 +14,8 @@
     "npm": "3.10.x"
   },
   "dependencies": {
-    "body-parser": "~1.17.1",
+
+    "body-parser": "~1.16.0",
     "cookie-parser": "~1.4.3",
     "debug": "~2.6.0",
     "ejs": "~2.5.5",
@@ -32,6 +33,10 @@
   },
   "devDependencies": {
     "sqlite3": "^3.1.8"
+<<<<<<< HEAD
+=======
+    
+>>>>>>> practica52
 
   }
 }

@@ -33,17 +33,19 @@
     </header>
 
     <nav class="main" id="mainNav" role="navigation">
-
         <a href="/">Inicio</a>
         <a href="/quizzes">Preguntas</a>
+        <a href="/help">Ayuda</a>
         <% if (session.user) { %>
             <a href="/users/<%= session.user.id %>/quizzes">Mis Preguntas</a>
         <% } %>
         <a href="/author">Créditos</a>
         <% if (session.user) { %>
            <a href="/users">Usuarios</a>
-        <% } %>
 
+
+        <% } %>
+	<a href="/quizzes/randomplay">Jugar</a>
     </nav>
 
     <section class="main" id="mainSection">
@@ -95,3 +97,4 @@
 </div>
 </body>
 </html>
+

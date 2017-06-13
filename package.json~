@@ -14,6 +14,27 @@
     "npm": "3.10.x"
   },
   "dependencies": {
+
+    "body-parser": "~1.16.0",
+    "cloudinary": "^1.8.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.0",
+    "ejs": "~2.5.5",
+    "express": "~4.14.1",
+    "express-flash": "0.0.2",
+    "express-partials": "^0.3.0",
+    "express-session": "^1.15.1",
+    "method-override": "^2.3.7",
+    "morgan": "~1.7.0",
+    "multer": "^1.3.0",
+    "pg": "^6.1.5",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.30.2",
+    "sequelize-cli": "^2.6.0",
+    "serve-favicon": "~2.3.2"
+  },
+  "devDependencies": {
+    "sqlite3": "^3.1.8"
     "body-parser": "~1.17.1",
     "cookie-parser": "~1.4.3",
 <<<<<<< HEAD
@@ -39,6 +60,10 @@
     "express": "~4.15.2",
     "morgan": "~1.8.1",
     "serve-favicon": "~2.4.2"
+<<<<<<< HEAD
 >>>>>>> practica51
+=======
+
+>>>>>>> practica52
   }
 }

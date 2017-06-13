@@ -1,5 +1,6 @@
 var path = require('path');
 
+
 // Cargar ORM
 var Sequelize = require('sequelize');
 
@@ -20,7 +21,6 @@ if (!process.env.DATABASE_URL) {
 }
 
 var sequelize = new Sequelize(url, {storage: storage});
-
 
 
 // Importar la definicion de la tabla Quiz de quiz.js
