@@ -37,7 +37,7 @@ router.get(/(?!\/new$|\/edit$|\/play$|\/check$|\/session$|\/(\d+)$)\/[^\/]*$/, f
 //-----------------------------------------------------------
 
 /* GET home page. */
-<<<<<<< HEAD
+
 router.get('/', function (req, res, next) {
     res.render('index');
 });
